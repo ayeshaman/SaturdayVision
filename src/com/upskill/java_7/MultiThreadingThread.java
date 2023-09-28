@@ -1,0 +1,14 @@
+package com.upskill.java_7;
+
+public class MultiThreadingThread extends Thread{
+	public void run(){
+		try{
+			System.out.println("Thread Number" + +Thread.currentThread().getId()+" is running"); // get the thread number 
+		}catch (Exception e){
+			System.out.println("Exception is caught");
+		}
+	}
+
+}
+
+
