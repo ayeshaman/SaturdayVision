@@ -20,12 +20,4 @@ public abstract class AbstractClass {
 	System.out.println("Tesla");
 	}
 
-
-
-
-
-
-
-
-
 }
